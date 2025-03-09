@@ -51,6 +51,7 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
+  enable: false,
   avatar: '',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Ricky Li',
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
