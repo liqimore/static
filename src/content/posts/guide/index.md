@@ -3,8 +3,8 @@ title: Simple Guides for Fuwari
 published: 2024-04-01
 description: "How to use this blog template."
 image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+tags: ["Fuwari", "Blogging", "Customization", "Test Posts"]
+category: Guides, Posts
 draft: false
 ---
 
@@ -26,13 +26,13 @@ draft: false
 ---
 ```
 
-| Attribute     | Description                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
+| Attribute     | Description                                                                                                                                                                                                 |Test|   
+|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------
+| `title`       | The title of the post.                                                                                                                                                                                      |ddwe
+| `published`   | The date the post was published.                                                                                                                                                                            |ddwe
+| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |ddwe
+| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |ddwe
+| `tags`        | The tags of the post.                                                                                                                                                                                       |ddwe
 | `category`    | The category of the post.                                                                                                                                                                                   |
 | `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
 
