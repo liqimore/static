@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: "Ricky's Blog",
+  title: "123",
   subtitle: 'hey there~',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: true,
+    enable: false,
     src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: '',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Ricky Li',
+  name: '123',
   bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   links: [
     // {
@@ -86,21 +86,21 @@ export const commentConfig: CommentConfig = {
   // disqus: {
   //   shortname: 'fuwari',
   // },
-  giscus: {
-    repo: 'liqimore/giscus-comment',
-    repoId: 'R_kgDOOGroXg',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOOGroXs4Cn0ux',
-    mapping: 'og:title',
-    strict: '0',
-    reactionsEnabled: '1',
-    emitMetadata: '1',
-    inputPosition: 'top',
-    theme: 'light',
-    lang: 'zh-CN',
-    // loading: 'lazy',
-  },
-  // twikoo: {
-  //   envId: 'https://twikoo-tau-flame.vercel.app',
+  // giscus: {
+  //   repo: 'liqimore/giscus-comment',
+  //   repoId: 'R_kgDOOGroXg',
+  //   category: 'Announcements',
+  //   categoryId: 'DIC_kwDOOGroXs4Cn0ux',
+  //   mapping: 'og:title',
+  //   strict: '0',
+  //   reactionsEnabled: '1',
+  //   emitMetadata: '1',
+  //   inputPosition: 'top',
+  //   theme: 'light',
+  //   lang: 'zh-CN',
+  //   // loading: 'lazy',
   // },
+  twikoo: {
+    envId: 'https://twikoo-comment-liqimore.netlify.app',
+  },
 }
