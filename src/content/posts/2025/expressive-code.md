@@ -59,7 +59,7 @@ console.log('Title attribute example')
 
 #### Terminal frames
 
-```bash
+```bash title="bash example"
 echo "This terminal frame has no title"
 ```
 
