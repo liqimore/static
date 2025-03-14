@@ -105,6 +105,7 @@ export const commentConfig: CommentConfig = {
   twikoo: {
     envId: 'https://twik.liqimore.com/.netlify/functions/twikoo',
   },
+  // tw_new: true
 }
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {

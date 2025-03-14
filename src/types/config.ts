@@ -94,6 +94,7 @@ export type CommentConfig = {
   twikoo?: TwikooConfig
   disqus?: DisqusConfig
   giscus?: GiscusConfig
+  tw_new?: boolean
 }
 
 type TwikooConfig = {
