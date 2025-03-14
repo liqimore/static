@@ -84,27 +84,27 @@ export const licenseConfig: LicenseConfig = {
 }
 
 export const commentConfig: CommentConfig = {
-  enable: false,
+  enable: true,
   // disqus: {
   //   shortname: 'fuwari',
   // },
-  giscus: {
-    repo: 'liqimore/giscus-comment',
-    repoId: 'R_kgDOOGroXg',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOOGroXs4Cn0ux',
-    mapping: 'og:title',
-    strict: '0',
-    reactionsEnabled: '1',
-    emitMetadata: '1',
-    inputPosition: 'top',
-    theme: 'light',
-    lang: 'zh-CN',
-    loading: 'lazy',
-  },
-  // twikoo: {
-  //   envId: 'https://vercel-twikoo-silk.vercel.app',
+  // giscus: {
+  //   repo: 'liqimore/giscus-comment',
+  //   repoId: 'R_kgDOOGroXg',
+  //   category: 'Announcements',
+  //   categoryId: 'DIC_kwDOOGroXs4Cn0ux',
+  //   mapping: 'og:title',
+  //   strict: '0',
+  //   reactionsEnabled: '1',
+  //   emitMetadata: '1',
+  //   inputPosition: 'top',
+  //   theme: 'light',
+  //   lang: 'zh-CN',
+  //   loading: 'lazy',
   // },
+  twikoo: {
+    envId: 'https://twik.liqimore.com/.netlify/functions/twikoo',
+  },
 }
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
