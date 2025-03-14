@@ -20,6 +20,9 @@
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/svelte": "7.0.3",
     "@astrojs/tailwind": "^5.1.5",
+    "@expressive-code/core": "^0.40.2",
+    "@expressive-code/plugin-collapsible-sections": "^0.40.2",
+    "@expressive-code/plugin-line-numbers": "^0.40.2",
     "@fontsource-variable/jetbrains-mono": "^5.2.5",
     "@fontsource/roboto": "^5.2.5",
     "@iconify-json/fa6-brands": "^1.2.5",
@@ -31,6 +34,7 @@
     "@tailwindcss/typography": "^0.5.16",
     "astro": "5.1.6",
     "astro-compress": "^2.3.6",
+    "astro-expressive-code": "^0.40.2",
     "astro-icon": "^1.1.5",
     "giscus": "^1.6.0",
     "hastscript": "^9.0.1",
@@ -73,5 +77,6 @@
       "vite-imagetools": "^6.2.7",
       "sharp": "^0.33.0"
     }
-  }
+  },
+  "packageManager": "pnpm@9.14.4"
 }
