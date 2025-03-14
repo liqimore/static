@@ -13,13 +13,13 @@ function joinUrl(...parts: string[]): string {
 }
 
 export function getPostUrlBySlug(slug: string): string {
-  return url(`/${slug}/`)
+  return url(`/${slug}`)
 }
 
 export function getCategoryUrl(category: string): string {
   if (category === i18n(i18nKey.uncategorized))
-    return url('/archive/category/uncategorized/')
-  return url(`/archive/category/${category}/`)
+    return url('/archives/category/uncategorized')
+  return url(`/archives/category/${category}`)
 }
 
 export function getDir(path: string): string {

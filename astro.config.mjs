@@ -26,7 +26,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://localhost",
+  site: "https://static.next.liqimore.com",
   base: "/",
   trailingSlash: "never",
   integrations: [
@@ -60,7 +60,7 @@ export default defineConfig({
     svelte(),
     sitemap(),
     Compress({
-      CSS: false,
+      CSS: true,
       HTML: {
         'html-minifier-terser': {
           minifyCSS: false, // Explicitly set to avoid interfering with Expressive Code.
