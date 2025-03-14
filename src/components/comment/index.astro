@@ -26,6 +26,7 @@ if (commentConfig?.disqus) {
 }
 ---
 <div class="card-base p-6 mb-4">
+  <span class="text-red-500">如果评论不显示，请刷新页面重新加载.   Please refresh if comments didn't show up.</span>
   {commentService === 'disqus' && <Disqus identifier={id} url={url} title={data.title} />}
   {commentService === 'giscus' && <Giscus />}
   {commentService === 'twikoo' && <Twikoo path={path} />}
