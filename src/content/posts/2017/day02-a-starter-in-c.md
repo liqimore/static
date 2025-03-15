@@ -1,0 +1,81 @@
+---
+title: day02- A starter in C++
+published: 2017-07-30 03:36:34+00:00
+slug: 2017/day02-a-starter-in-c
+tags: [Default]
+categories:  []
+---
+
+1.常引用
+
+![](../old_assets/4f144b67bc1348fc4cf627827ba549da.png)
+
+2.常引用直接引用字面量的时候无法修改
+
+![](../old_assets/5d293bb2c95e28395612a275ffd90d9c.png)
+
+3.常引用的目的在于让某个变量拥有只读属性
+
+4.内联函数需求原因![](../old_assets/90440db38edc6756b9843fdb06c60459.png)
+
+5.内敛函数定义方法
+
+![](../old_assets/675fdd6918184e1ad1f5487490265bb7.png)
+
+内敛函数不经过入栈出栈
+
+![](../old_assets/f9d33375aa550c1d975b213206be7670.png)
+
+![](../old_assets/e3f79e89487d317807cf2d162ba4828c.png)
+
+
+
+
+
+  1. 函数重载,函数名字相同,但是每个相同名字函数的参数不相同
+
+
+
+![](../old_assets/ff18bbfbdc9587528d170e225337421f.png)
+
+
+
+
+
+  1. 面向对象的基本概念
+
+
+
+![](../old_assets/39e92f5b13c773d234d08264995e222e.png)
+
+封装也就是说把类中的成员(属性)封装到函数中进行修改设置变更等操作
+
+
+
+
+
+  1.  类的访问访问控制关键字
+
+
+
+![](../old_assets/48659f88444bcefc73a04eab6c7b5125.png)
+
+
+
+
+
+  1. struct和class的区别
+
+
+
+![](../old_assets/1c787bb9d717462714bd4fbb5b8f6da3.png)
+
+
+
+
+
+  1. 类的声明和类的实现要分开,分到.h和.cpp不同的文件中
+
+
+
+![](../old_assets/6788f697262c18d03f0fdb414a3dfeec.png)
